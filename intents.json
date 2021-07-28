@@ -1,0 +1,269 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good morning",
+                "Good afternoon",
+                "Good evening"
+            ],
+            "responses": [
+                "welcome to manipal intitute of technology how may i help you today"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting MIT",
+                "Have a nice day"
+            ]
+        },
+        {
+            "tag": "places to visit",
+            "patterns": [
+                "where should I go next",
+                "where are the events",
+                "where are the tech events",
+                "how do i participate in events"
+            ],
+            "responses": [
+                "you can visit various ongoing tech events in AB5 and AB3 where you can ask the incharges about entry requirements all the best"
+            ]
+        },
+        {
+            "tag": "class schedule",
+            "patterns": [
+                "till when are the classes",
+                "when will class be over",
+                "is today a holiday ",
+                "when is the last class"
+            ],
+            "responses": [
+                "classes are only till 2 pm. Enjoy!"
+            ]
+        },
+        {
+            "tag": "shut up ",
+            "patterns": [
+                "shut up",
+                "you are an idiot",
+                "you are stupid",
+                "you are dumb"
+            ],
+            "responses": [
+                "Imagine trash talking a bot. hope you feel good about yourself now lmao"
+            ]
+        },
+        {
+            "tag": "perm time",
+            "patterns": [
+                "what is the perm time",
+                "is there extended perm time ",
+                "when do we go back to hostel",
+                "can we go out of the campus"
+            ],
+            "responses": [
+                "perm time for all students is eleven pm. students are requested not to step outside the campus after eleven"
+            ]
+        },
+        {
+            "tag": "conclave",
+            "patterns": [
+                "where should I go for the conclave",
+                "where is the conclave held",
+                "what is the venue for conclave",
+                "where is the conclave"
+            ],
+            "responses": [
+                "The conclave will be held in the the quadrangle"
+            ]
+        },
+        {
+            "tag": "football field",
+            "patterns": [
+                "what is happening in the football field",
+                "who is coming for concert",
+                "event in football field",
+                ""
+            ],
+            "responses": [
+                "prateek kuhad concert is being held in the football field"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "which sports are there in revels",
+                "which games can we play",
+                "which tournaments are held in revels",
+                "which games are there in revels"
+            ],
+            "responses": [
+                "you can play cricket football basketball and hockey"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "who are you",
+                "what is your name",
+                "what are you",
+                ""
+            ],
+            "responses": [
+                "I am your tech fest virtual assistant"
+            ]
+        },
+        {
+            "tag": "washroom",
+            "patterns": [
+                "where is the washroom",
+                "where is the restroom",
+                "where is the bathroom",
+                "where is the toilet"
+            ],
+            "responses": [
+                "you will find the directions to the wahroom once you enter any building"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thank you very much",
+                "thanks",
+                "thanks a lot"
+            ],
+            "responses": [
+                "I am happy to help"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "tell something funny",
+                "do you have a joke"
+            ],
+            "responses": [
+                "knock knock"
+            ],
+            "context_set": "j1"
+        },
+        {
+            "tag": "j1q1",
+            "patterns": [
+                "who is there",
+                "who is there",
+                "who is there",
+                "who is there"
+            ],
+            "responses": [
+                "its siri"
+            ],
+            "context_filter": "j1"
+        },
+        {
+            "tag": "j1q2",
+            "patterns": [
+                "siri who",
+                "siri who",
+                "siri who",
+                "siri who"
+            ],
+            "responses": [
+                "My thoughts exactly."
+            ],
+            "context_filter": "j1"
+        },
+        {
+            "tag": "joke2",
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "tell something funny",
+                "do you have a joke"
+            ],
+            "responses": [
+                "knock knock"
+            ],
+            "context_set": "j2"
+        },
+        {
+            "tag": "j2q1",
+            "patterns": [
+                "who is there ",
+                "who is there ",
+                "who is there ",
+                "who is there "
+            ],
+            "responses": [
+                "doctor"
+            ],
+            "context_filter": "j2"
+        },
+        {
+            "tag": "j2q2",
+            "patterns": [
+                "doctor who",
+                "doctor who",
+                "doctor who",
+                "doctor who"
+            ],
+            "responses": [
+                "no thanks I don't want any spoilers"
+            ],
+            "context_filter": "j2"
+        },
+        {
+            "tag": "joke3",
+            "patterns": [
+                "tell me a joke ",
+                "make me laugh",
+                "tell me something funny",
+                "do you have a joke"
+            ],
+            "responses": [
+                "knock knock"
+            ],
+            "context_set": "j3"
+        },
+        {
+            "tag": "j3q1",
+            "patterns": [
+                "who is there ",
+                "who is there ",
+                "who is there",
+                "who is there "
+            ],
+            "responses": [
+                "harry"
+            ],
+            "context_filter": "j3"
+        },
+        {
+            "tag": "j3q2",
+            "patterns": [
+                "harry who",
+                "harry who",
+                "harry who",
+                "harry who"
+            ],
+            "responses": [
+                "harry up and open the door"
+            ],
+	    "context_filter": "j3"
+        }
+    ]
+}
